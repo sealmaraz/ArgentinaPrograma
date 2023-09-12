@@ -1,48 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
     <title>Mi CV</title>
 </head>
+
 <body>
-    <header>
-        
-        <img src="" alt="" />
-       <h1>Un poco sobre mi</h1>
+    <header class="cabecera">
+        <div class="img_titulo">
+            <img class="mi_foto" src="./images/65.jpg" alt="" />
+            <h1>Un poco sobre mi</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li>Inicio</li>
-            <li>Contacto</li>
-        </ul>
-    </nav>
-    <aside>
-    <p>Mi nombre es Jonh Doe</p>
-    <p>Mi amor por la programación surgio siendo muy joven y fue creciendo con el paso del tiempo.
-    Estudie en un prestigioso Colegio de Tucumán, que me formó y encaminó en mi vocación.
-    Actualmente trabajo en la sección de IT de una empresa donde dirijo un grupo de personas excepcionales.</p>
-    </aside>
     <section>
-        <a id="conocimiento" href="#"><img src="./images/html.png" alt="logo html" /></a>Mis conocimientos en programación
-        <div id="listado_conoc" style="display: none;">
-            <ol>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-            </ol>
-        </div>
-        <a id="trabajo" href="#"><img src="./images/trabajo.jpg" alt="persona trabajando en compu" /></a>Mi experiencia laboral
-        <div id="listado_trabajo" style="display: none;">
-            <ol>
-                <li>Google</li>
-                <li>Harvard</li>
-            </ol>
-        </div>
+        <aside>
+            <p class="parrafo_inicial">Mi nombre es Alta Gracia</p>
+            <p class="parrafo_completo">Mi amor por la programación surgio siendo muy joven y fue creciendo con el paso
+                del tiempo.
+                Estudie en un prestigioso Colegio de Tucumán, que me formó y encaminó en mi vocación.
+                Actualmente trabajo en la sección de IT de una empresa donde dirijo un grupo de personas excepcionales.
+            </p>
+        </aside>
+        <article>
+            <div>
+                <a id="conocimiento" href="#"><img src="./images/html.png" alt="logo html" /></a>
+                <p class="parrafo_completo">Mis conocimientos en
+                    programación</p>
+                <div id="listado_conoc" style="display: none;">
+                    <ol>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                    </ol>
+                </div>
+            </div>
+            <div>
+                <a id="trabajo" href="#"><img src="./images/trabajo.jpg" alt="persona trabajando en compu" /></a>
+                <p class="parrafo_completo">Mi
+                    experiencia
+                    laboral</p>
+                <div id="listado_trabajo" style="display: none;">
+                    <ol>
+                        <li>Google</li>
+                        <li>Harvard</li>
+                    </ol>
+                </div>
+            </div>
+        </article>
     </section>
     <footer>
-        <p>Todos los derechos reservados</p>
+        <p class="parrafo_footer">Todos los derechos reservados &copy;</p>
     </footer>
-<script src="./js/enlaces.js"></script>
+    <script src="./js/enlaces.js"></script>
 </body>
+
 </html>

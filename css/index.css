@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.mi_foto {
+    width: 150px;
+    height: 150px;
+}
+
+.cabecera {
+    height: 15vh;
+    font-size: 2em;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(123, 86, 205, 1) 32%, rgba(193, 77, 152, 1) 69%, rgba(204, 76, 143, 1) 75%, rgba(252, 70, 107, 1) 100%);
+}
+
+nav {
+    width: 300px;
+}
+
+ul {
+
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+#listado_conoc,
+#listado_trabajo {
+    padding: 67px;
+    font-size: 2em;
+}
+
+.img_titulo {
+    display: flex;
+    align-items: center;
+}
+
+aside {
+    padding: 30px;
+    width: 40vw;
+}
+
+section {
+    height: 70vh;
+    display: flex;
+
+
+}
+
+article {
+    margin-left: 50px;
+    padding: 30px;
+    width: 60vw;
+}
+
+footer {
+    display: flex;
+    background: linear-gradient(9deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo_inicial {
+    padding: 5px;
+    font-size: 2em;
+    border-bottom-style: solid;
+}
+
+.parrafo_completo {
+    padding: 5px;
+    font-size: 2em;
+}
+
+.parrafo_footer {
+    font-size: 1.8em;
+}
